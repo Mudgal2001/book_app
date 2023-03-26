@@ -1,0 +1,25 @@
+.footer{
+    height:12vh;
+    background-color:#f7f3fcff ;
+    font-family: Lato;
+    color:#9094a2ff;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+}
+
+.Icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Icon{
+    margin: auto 10px;
+    font-size: 20px;
+}
+
+.Icon:hover{
+    color:#373350ff;
+    
+}
