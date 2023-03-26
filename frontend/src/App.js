@@ -5,7 +5,7 @@ import Singlebook from "./components/singleBook/Singlebook";
 function App() {
   return (
   <Router>
-  <Header/>
+
   </Router>
   );
 }
