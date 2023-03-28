@@ -1,13 +1,13 @@
 
 const express = require("express");
 const app = express();
-const dotenv = require("dotenv");
+const dotenv = require('dotenv').config();
 const mongoose = require("mongoose");
 const bookRoute = require("./routes/book");
 const userRoute = require("./routes/userRoutes");
 app.use(express.json());
 const multer = require("multer");
-dotenv.config();
+
 const port = 3000;
 
 
