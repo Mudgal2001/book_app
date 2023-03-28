@@ -1,0 +1,41 @@
+.login{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:url("https://www.winemag.com/wp-content/uploads/2018/10/TheCrush_ItsOnlyNatural_NatBooks_7443_1920x1280_new-700x461.jpg"); 
+    background-size: cover;
+}
+
+.loginForm{
+    margin-top: 20px;
+   display: flex;
+   flex-direction: column; 
+
+}
+
+
+.loginInput{
+ height: 20px;
+ padding: 10px;
+ background-color: #fff;
+ border: none;
+}
+.loginButton{
+   margin: 10px 0;
+   height: 40px;
+   border-radius: 4px;
+   background-color: #fe3152ff;
+   color:#ffdde3ff;
+   border-style: none;
+}
+
+.loginRegisterButton{
+    margin: 10px 0;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #fe3152ff;
+    color:#ffdde3ff;
+    border-style: none;
+}
